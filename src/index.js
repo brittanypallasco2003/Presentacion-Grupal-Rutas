@@ -22,8 +22,8 @@ app.get('/',(req, res)=>{
     <h2>Enlaces de la página 👩‍💻:</h2>
         <hr>
         <ul>
-            <li>"/ ":Es la ruta raíz, de la página principal</li>
-            <li>"/integrantes":Contiene los nombres de los integrantes del grupo 1. O tambíen puede dar <a href="https://taller09introexpress.onrender.com/integrantes">click aquí 🖱️</a>para ver los integrantes</li>
+            <li>"/ ": Es la ruta raíz, de la página principal</li>
+            <li>"/integrantes": Contiene los nombres de los integrantes del grupo 1. Ingrese la ruta mencionada o de <a href="https://taller09introexpress.onrender.com/integrantes">Click aquí 🖱️</a>para ver los integrantes</li>
             <li>"/catalogo/productos": Contiene un mini catálogo de electrodomésticos. Ingrese la ruta mencionada o de <a href="https://taller09introexpress.onrender.com/catalogo/productos">Click aquí 🖱️</a></li>
         </ul>
         <hr>
