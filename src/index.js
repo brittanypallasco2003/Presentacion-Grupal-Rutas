@@ -97,7 +97,7 @@ app.get('/catalogo/:productos',(req, res)=>{
         <div class="card-body">
             <p class="card-text">$19.99 💵</p>
             <br>
-            <p>máquina de afeitar</p>
+            <p>Máquina de afeitar</p>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -105,7 +105,7 @@ app.get('/catalogo/:productos',(req, res)=>{
         <div class="card-body">
             <p class="card-text">$22.99 💵</p>
             <br>
-            <p>licuadora</p>
+            <p>Licuadora</p>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -113,7 +113,7 @@ app.get('/catalogo/:productos',(req, res)=>{
         <div class="card-body">
             <p class="card-text">$379.99 💵</p>
             <br>
-            <p>lavadora</p>
+            <p>Lavadora</p>
         </div>
     </div>
 
