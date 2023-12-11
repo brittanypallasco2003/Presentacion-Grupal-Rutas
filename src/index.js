@@ -21,6 +21,10 @@ app.get('/productos',(req, res)=>{
     res.send('Catologo de productos')
 })
 
+
+//Manejo de request para express
+app.use(express.json())//para que las peticiones sean en formato JSON
+
 //personalizar el mensaje para rutas no resgistras en el web server y mandar el código de respuesta 404
 app.use((req,res)=>{
     res.status(400).send('Página NO encontrada - 404')
@@ -29,3 +33,5 @@ app.use((req,res)=>{
 //indicarle al servidor el n de puerto en se que ejecutará las peticiones
 app.listen(3000)
 console.log('el servidor se está ejecutando en el puerto 3000')
+
+//
