@@ -83,7 +83,7 @@ app.use(express.json())//para que las peticiones sean en formato JSON
 app.get('/catalogo/:productos',(req, res)=>{
     console.log(req.params)//obtener la variable catalogo
     res.send(`
-    <h1>Cátalogo de Productos</h1>
+    <h1>Catálogo de Productos</h1>
     <div class="card" style="width: 18rem;">
         <img src="https://cdn.pixabay.com/photo/2011/03/01/03/55/iron-5112_640.jpg" class="card-img-top" alt="plancha eléctrica" >
         <div class="card-body">
